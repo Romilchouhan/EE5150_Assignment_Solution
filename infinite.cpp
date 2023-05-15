@@ -6,8 +6,8 @@
    3. R value
    4. N value
 
-   Example: g++ romil_infinite.cpp -o romil_infinite
-            ./romil_infinite romil_infinite 20 5
+   Example: g++ infinite.cpp -o infinite
+            ./infinite max_weight 20 15 60
 
     Output: A csv file with the name kvalue_rvalue_Nvalue_filename.csv will be generated 
             in the results/infinite folder

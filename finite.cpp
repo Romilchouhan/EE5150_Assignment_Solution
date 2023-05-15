@@ -7,8 +7,8 @@
    4. R (int)
    5. N (int)
 
-   Example: g++ -std=c++11 romil_finite.cpp -o romil_finite
-            ./romil_finite processor_sharing 0.5 20 5
+   Example: g++ -std=c++11 finite.cpp -o finite
+            ./finite processor_sharing 0.5 20 15 60
     
     Output: A csv file with the name alpha_kvalue_rvalue_Nvalue_filename.csv will be generated 
             in the results/finite folder
